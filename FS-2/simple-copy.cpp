@@ -5,7 +5,7 @@
 
 int main(int argc, char* argv[]) {
     if (argc != 3) {
-        fprintf(stderr, "Usage: %s <source-file> <destination-file>\n", argv[0]);
+        fprintf(stderr, "Usage: %s <source-file name> <destination-file name>\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 

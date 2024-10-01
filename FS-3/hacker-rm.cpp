@@ -1,13 +1,14 @@
-#include <fcntl.h>     // For open()
-#include <unistd.h>    // For write(), lseek(), and unlink()
-#include <sys/stat.h>  // For stat()
-#include <stdio.h>     // For perror()
-#include <stdlib.h>    // For exit()
+#include <fcntl.h>
+#include <unistd.h>
+#include <sys/stat.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <cstdio>
 
 int main(int argc, char* argv[]) {
     
     if (argc != 2) {
-        fprintf(stderr, "Usage: %s <file-to-erase>\n", argv[0]);
+        fprintf(stderr, "Usage: %s <provide the name of file to delete\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
