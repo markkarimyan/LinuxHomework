@@ -1,0 +1,2 @@
+Final value: 500000
+Execution time with Mutex: 0.196348 seconds

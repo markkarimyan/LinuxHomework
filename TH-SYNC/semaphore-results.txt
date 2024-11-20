@@ -1,0 +1,2 @@
+Final value: 500000
+Execution time with Semaphore: 0.119722 seconds

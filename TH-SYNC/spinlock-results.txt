@@ -1,0 +1,2 @@
+Final value: 500000
+Execution time with Spinlock: 0.130076 seconds
