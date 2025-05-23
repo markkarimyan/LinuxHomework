@@ -1,0 +1,12 @@
+.DS_Store
+
+
+bank-init
+bank-deinit
+client
+server
+client_online
+
+
+*.o
+
